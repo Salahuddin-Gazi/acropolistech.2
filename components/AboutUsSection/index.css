@@ -1,0 +1,66 @@
+.aboutus-description {
+  margin-bottom: 50px;
+}
+.aboutus-description p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutus-description p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+}
+.aboutus-description h1 {
+  float: right;
+  margin-left: 20px;
+  width: 500px;
+  max-width: 650px;
+}
+
+.aboutus-description h1 img {
+  width: 100%;
+}
+
+@media (max-width: 1023px) {
+  .aboutus-description h1 {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+.aboutus-mission p,
+.aboutus-services p {
+  text-align: left;
+}
+
+.aboutus-services h4 {
+  margin-top: 40px;
+}
+
+.aboutus-services a {
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  margin-top: 10px;
+  padding: 0.75rem;
+
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+
+  /* text-transform: uppercase; */
+
+  background-color: rgba(30, 21, 72, 0.9215686275);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.aboutus-services a:hover {
+  opacity: 0.8;
+}

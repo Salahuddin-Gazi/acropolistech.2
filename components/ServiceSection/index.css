@@ -1,0 +1,22 @@
+@media screen and (max-width: 1023px) {
+  .services-heading h1 {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .services-content {
+    position: relative;
+  }
+  .services-content::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px dashed #eb4d4d87;
+    border-spacing: 0.5rem;
+  }
+}

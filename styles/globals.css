@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@/pages/contactus/index.css";
+@import "@/pages/blogs/index.css";
+
+@import "@/components/HeroSection/index.css";
+@import "@/components/ServiceSection/index.css";
+@import "@/components/ClientsSection/index.css";
+@import "@/components/AboutUsSection/index.css";
+
+@import "@/components/SectionHeading/index.css";
+@import "@/components/SectionBody/index.css";
+@import "@/components/Blogs/index.css";
+
+html,
+body,
+:root {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
