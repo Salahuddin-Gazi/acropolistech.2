@@ -19,7 +19,7 @@ const BlogHeading: React.FC<BlogHeadingProps> = ({
 }) => {
   return (
     <div className="w-full flex flex-col">
-      <div className="mb-[10px]">
+      <div className="mb-[25px]">
         <img alt={title} src={image} />
       </div>
       <div className="flex flex-row flex-wrap gap-3 justify-start items-center mb-[30px]">

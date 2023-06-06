@@ -28,11 +28,35 @@
   font-weight: 600;
 }
 
+.blog-page h6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.blog-page h6 img {
+  width: calc(50% - 5px);
+  /* border: 1px solid rgb(250, 75, 0); */
+  border-radius: 5px;
+  padding: 15px;
+}
+
 .blog-page ol,
 .blog-page ul {
   list-style: decimal;
   padding: 5px 25px;
   margin-bottom: 25px;
+}
+
+.blog-page ol li:not(:last-child),
+.blog-page ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.blog-page ol li ul,
+.blog-page ul li ul {
+  list-style: upper-roman;
 }
 
 .blog-page ol p {
@@ -48,5 +72,9 @@
   .blog-page p {
     font-size: 0.8rem;
     line-height: 1.2rem;
+  }
+
+  .blog-page h6 img {
+    width: calc(100% - 10px);
   }
 }

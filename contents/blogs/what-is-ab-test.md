@@ -12,7 +12,7 @@ id: 1
 
 # What is A/B Test?
 
-**A/B testing is a powerful method used to enhance customer experiences and increase conversions. It can be used to test various elements such as headings, email newsletters, ad campaigns, checkout experiences, and user experiences. A/B testing provides real-time data that can be used to compare experiences and make informed decisions. By implementing effective methods, A/B testing can increase the efficiency of marketing efforts and make them more profitable. Google has successfully used A/B testing to determine search result displays and improve listing pages.**
+A/B testing is a powerful method used to enhance customer experiences and increase conversions. It can be used to test various elements such as headings, email newsletters, ad campaigns, checkout experiences, and user experiences. A/B testing provides real-time data that can be used to compare experiences and make informed decisions. By implementing effective methods, A/B testing can increase the efficiency of marketing efforts and make them more profitable. Google has successfully used A/B testing to determine search result displays and improve listing pages.
 
 A/B testing is a method of comparing two variations of a webpage, email,
 or advertisement to determine which one performs better in terms of

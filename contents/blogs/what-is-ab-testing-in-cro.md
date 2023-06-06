@@ -14,7 +14,7 @@ id: 2
 
 # What is A/B testing in CRO?
 
-**A/B testing is an effective technique used in Conversion Rate Optimization (CRO) to test multiple variations of marketing material and determine which version performs better. Businesses can define key metrics, create variations of the material, split the traffic between the control and test groups, and analyze the results to make data-driven decisions. The types of A/B testing include split testing, multivariate testing, and redirect testing. The benefits of A/B testing include improved user experience, increased conversion rates, reduced bounce rates, data-driven decision making, and increased ROI. However, there are also challenges to consider, such as sample size, time and resources, test validity, and test bias. Overall, A/B testing can help businesses achieve higher conversion rates and optimize their marketing efforts.**
+A/B testing is an effective technique used in Conversion Rate Optimization (CRO) to test multiple variations of marketing material and determine which version performs better. Businesses can define key metrics, create variations of the material, split the traffic between the control and test groups, and analyze the results to make data-driven decisions. The types of A/B testing include split testing, multivariate testing, and redirect testing. The benefits of A/B testing include improved user experience, increased conversion rates, reduced bounce rates, data-driven decision making, and increased ROI. However, there are also challenges to consider, such as sample size, time and resources, test validity, and test bias. Overall, A/B testing can help businesses achieve higher conversion rates and optimize their marketing efforts.
 
 ## Introduction to A/B Testing in CRO
 
