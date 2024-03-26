@@ -6,6 +6,8 @@ import Header from "../Header";
 import Footer from "../Footer";
 import getNavHeight from "@/lib/getNavHeight";
 import BackToTopButton from "../BackToTopButton";
+import VWO_SCRIPT from "../vwo-script/script";
+import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -54,7 +56,13 @@ const Layout: React.FC<LayoutProps> = ({
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
         <link rel="icon" href="./images/main_logo_sm.png" type="image/x-icon" />
+
+        {/* <!-- Start VWO Async SmartCode --> */}
+        <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+        <script id="vwo-script">{VWO_SCRIPT}</script>
+        {/* <!-- End VWO Async SmartCode --> */}
       </Head>
+
       <Header />
       <div className="flex-1">{children}</div>
       <BackToTopButton />
