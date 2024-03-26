@@ -12,8 +12,8 @@ export default function Document() {
         <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
         {/* <script id="vwo-script">{VWO_SCRIPT}</script> */}
         <Script
-          id="vwo-script"
-          strategy="afterInteractive"
+          id="vwoCode"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: VWO_SCRIPT,
           }}
