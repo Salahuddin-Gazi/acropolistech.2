@@ -13,8 +13,8 @@ export default function Document() {
         {/* <script id="vwo-script">{VWO_SCRIPT}</script> */}
         <Script
           id="vwoCode"
-          // strategy="beforeInteractive"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
+          // strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: VWO_SCRIPT,
           }}
