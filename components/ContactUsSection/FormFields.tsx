@@ -18,7 +18,7 @@ const FormFields: React.FC<FormFieldsProps> = ({
   onChange,
 }) => {
   return (
-    <div className="flex flex-col gap-4 max-w-[650px] w-[100%] mx-auto">
+    <div className="flex flex-col gap-4 max-w-[650px] w-[100%] mx-auto contactus-form-inputs">
       <Input
         id="name"
         // type="name"

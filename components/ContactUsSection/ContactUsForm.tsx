@@ -67,7 +67,7 @@ const ContactUsForm: React.FC<ContactUsFormProps> = ({
   };
 
   return (
-    <div className="relative lg:p-6 flex-1">
+    <div className="relative lg:p-6 flex-1 contactus-form">
       {isLoading ? (
         <Loading />
       ) : (
